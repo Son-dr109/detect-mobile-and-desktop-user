@@ -1,0 +1,10 @@
+body {
+    position: absolute;
+    top: 33%;
+    right: 46%;
+}
+#phone, #desktop {
+    font-size: 100px;
+    opacity: 0.2;
+    margin-left: 30px;
+}

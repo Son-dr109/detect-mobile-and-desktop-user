@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checking mobile user and desktop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <span class="material-symbols-outlined" id="phone"> smartphone </span>
+      <span class="material-symbols-outlined" id="desktop"> computer </span>
+    </div>
+    <script>
+    window.onload = () => {
+      const script = document.createElement("script");
+      script.src = "script.js";
+      document.body.appendChild(script);
+    }
+    </script>
+  </body>
+</html>
